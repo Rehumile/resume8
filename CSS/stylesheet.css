@@ -1,0 +1,488 @@
+
+/*----------------------------BEGIN-----------------------------------*/
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F6F7EB;
+    line-height: 1.6;  
+}
+
+/*----------------------------FLEX DISPLAY-----------------------------*/
+.flex-box{
+
+  width: 1000px;
+display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  margin-bottom: 0;
+  padding: 15px;
+}
+.resume-left{
+    color:#fff;
+    background-color: #272828;
+    padding: 5%;
+    width: 35%;
+   border-right: 2px solid #38b6ff;
+   border-bottom-left-radius: 10px;
+   border-top-left-radius: 10px;
+    
+}
+
+.resume-right {
+   background-color: #fff;
+    padding: 20px 45px;
+    width: 65%;
+    border-bottom-right-radius: 10px;
+   border-top-right-radius: 10px;
+    }
+
+section {
+    margin-bottom: 10px;
+}
+/*-------------------------------------Banner Section-----------------------------------*/
+
+.hero-para1, .hero-para2{
+    position: absolute;
+    color: white;
+    
+    text-transform: uppercase;
+}
+.hero-para1 {
+    font-size: 3em;
+    top: 300px;
+    left: 350px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    border-bottom: 1px solid white;
+}
+.hero-para2{
+    top: 390px;
+    left: 500px;
+    font-size: 2em;
+}
+
+
+/*-------------------------------------IMAGES/ICONS------------------------------------*/
+
+#background-img{
+    background-image: url("../Images/background-image.jpg");
+    background-color: #F6F7EB;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 110vw;
+    height:110vh;
+    opacity: 1;
+}
+ #picture {
+    width:250px;
+    max-width: 100%;
+    height: 250px;
+    max-height: 100%;
+    border-radius:100%;
+    margin: 5%;
+   
+}
+.icon {
+    width: 30px;
+    height:30px;
+    margin-top: 0;
+    background-color: #fff;
+    border: 1px solid black;
+    position: relative;
+    
+}
+/*--------------------------------------HEADINGS----------------------------------*/
+.blue-heading {
+    color: #38b6ff;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    border-top: 1px solid #fff;
+    padding:20px 0;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.black-heading {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1em;
+    border-top: 1px solid #ccc;
+    padding: 20px 0;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+.sub-heading {
+    
+    margin-top: 0;
+    font-size: 0.9em;
+    color:#38b6ff;
+}
+/*----------------------------------------MENU/NAVIGATION SECTION---------------------------*/
+#nav-bar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+   padding: 10px 20px;
+    width: 80%;
+    position: relative;
+    left: 100px;
+    border-bottom: 1px solid white;
+}
+
+
+#nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+#nav-bar a:hover{
+    color: #38b6ff;
+
+}
+#nav-bar h2 {
+    color:#fff;
+    font-weight: 600;
+    font-size: 2em;
+    padding-left: 0;
+
+}
+#nav-bar ul {
+    margin-left: 18px;
+    padding-left: 15px;
+    margin-top: 0;
+}
+#nav-bar li {
+   list-style-type:none; 
+   padding: 10px 20px;
+   display: inline-block;
+   
+}
+/*---------------------------SKILLS SECTION---------------------------*/
+#skills ul {
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+/*---------------------------CONTACT SECTION--------------------------*/
+#contact-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-child a {
+    text-decoration: none;
+    color:#fff; 
+    font-size: 1em;
+    font-weight:700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 8px;
+    
+}
+.contact-child{
+    padding: 8px;
+    padding-left: 0;
+}
+#contact-links a:hover{
+    color: #38b6ff
+}
+
+/*------------------------------------------FORM SECTION-----------------------------------------*/
+form {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 5px;
+    padding-left: 0;
+}
+form label {
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight:700;
+    margin-right: 5px;
+    width: 25%;
+}
+.form-info {
+    display: flex;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+form div {
+    margin-bottom: 20px;
+}
+.form-info p {
+    margin: 0;
+    margin-left: 2px;
+    margin-right: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight:700;
+}
+.form-info input, .form-info select{
+    margin-left: 5px;
+}
+#contact-person {
+margin-left: 5px;
+}
+
+#Submit {
+    width: 60px;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight:600;
+    background-color:#38b6ff;
+    border-color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+
+
+   /*--------------------NAME AND OCCUPATION-------------------------*/
+#Name {
+    font-size: 2.2em;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+#Occupation {
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 10px;
+    
+}
+.name-occupation-top {
+    display: none;
+}
+
+.resume-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.resume-info .content{
+padding-left: 2px;
+    margin-bottom: 20px;
+}
+
+/*-----------------------------------EDUCTION AND EXPERIENCE SECTION-------------------------------------*/
+span a {
+    color: #38b6ff;
+    text-decoration:none;
+}
+
+/*----------------------------------------FOOTER SECTION ------------------------------------------------*/
+footer {
+ margin-top:10px;
+ margin-left: 180px;
+ margin-bottom: 30px;
+
+}
+footer a {
+color: black;
+text-decoration: none;
+border: 1px solid black;
+padding: 20px;
+background-color: #fff;
+
+}
+footer a:hover {
+    color:#38b6ff
+}
+/*----------------------------------------MEDIA QUERIES------------------------------------------------------*/
+
+/*-----------------------------------------LAPTOP-----------------------------------------------------------*/
+@media screen and (max-width: 1024px) {
+    #nav-bar {
+        justify-content: center;
+       padding: 10px 20px;
+        width: 70%;
+        
+    
+    }
+    .hero-para1 {
+        font-size: 2em;
+        top: 200px;
+        left: 250px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        border-bottom: 1px solid white;
+    }
+    .hero-para2{
+        top: 280px;
+        left: 350px;
+        font-size: 1.5em;
+    }
+    footer {
+        margin-top:10px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+       
+       }
+}
+
+
+/*--------------------------------TABLET--------------------------------------*/
+@media screen and (max-width: 768px) {
+
+    .name-occupation {
+        display: none;
+    }
+    .name-occupation-top{
+        display: block;
+        background-color:#272828 ;
+        color: #fff;
+        margin: 0;
+        text-align: center;
+    }
+    #name-role picture{
+        margin: 20px 145px;
+    }
+
+.flex-box {
+    margin: 10px auto;
+    display: block;
+    width: 100vw;
+    padding: 0;
+    
+
+}
+.resume-left, .resume-right{
+   width: 85%;
+ padding: 10px 60px;
+  border-radius: 0;
+ }
+
+.resume-left {
+    color: white;
+    border: none;
+   }
+.resume-right{
+}
+.contact-child a {
+    color: white
+}
+form textarea {
+    width: 70%;
+    height: 10%;
+ }
+ form #Submit {
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+ }
+ .hero-para1 {
+    font-size: 2em;
+    top: 200px;
+    left: 150px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    border-bottom: 1px solid white;
+}
+.hero-para2{
+    top: 280px;
+    left: 250px;
+    font-size: 1.5em;
+}
+#nav-bar {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   padding: 10px 20px;
+    width: 60%;
+
+}
+#nav-bar h2 {
+    font-size: 1em;
+}
+#nav-bar li {
+   font-size: 0.55em;
+
+}
+ul {
+    padding-left: 15px;
+
+}
+footer {
+    margin-top:30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+   
+   }
+}
+
+
+/*-----------------------------------PHONE----------------------------------*/
+@media screen and (max-width: 425px) {
+    .flex-box {
+        width: 110vw
+    }
+    #name-role picture{
+       margin-left: 5px;
+    }
+    .name-occupation-top h1{
+        font-size: 1em;
+        margin-left: 10px;
+    }
+    .hero-para1 {
+        font-size: 1em;
+        top: 280px;
+        left: 100px;
+
+    }
+    .hero-para2{
+        top: 320px;
+        left: 180px;
+        font-size: 0.8em;
+    }
+    #nav-bar {
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 45%;
+      border: none;
+      background-color: transparent;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      padding: 0;
+     
+    }
+    #nav-bar h2 {
+        font-size: 18px;
+        padding-left: 0;
+        margin-left: -30px;
+         border-bottom: 1px solid white;
+    }
+    #nav-bar li {
+       font-size: 11px;
+    }
+    footer {
+        margin-top:30px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+       
+       }
+}
+
+
+
+
+
+/*------------------------------------------END-------------------------------------------------------------*/
