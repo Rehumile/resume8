@@ -14,7 +14,7 @@ body {
 /*----------------------------FLEX DISPLAY-----------------------------*/
 .flex-box{
 
-  width: 1000px;
+  width: 85vw;
 display: flex;
   justify-content: center;
   margin: 100px auto;
@@ -311,10 +311,12 @@ footer a:hover {
 @media screen and (max-width: 1024px) {
     #nav-bar {
         justify-content: center;
-       padding: 10px 20px;
-        width: 70%;
-        
+       padding: 10px 0;
+        width: 73%; 
     
+    }
+    #background-img {
+        width: 100vw;
     }
     .hero-para1 {
         font-size: 2em;
@@ -356,13 +358,12 @@ footer a:hover {
     }
 
 .flex-box {
-    margin: 15px auto;
+    margin: 15px;
     display: block;
-    width: 100vw;
-    padding: 0;
+   padding: 0;
     
-
 }
+
 .resume-left, .resume-right{
    width: 85%;
  padding: 10px 60px;
@@ -373,8 +374,6 @@ footer a:hover {
     color: white;
     border: none;
    }
-.resume-right{
-}
 .contact-child a {
     color: white
 }
@@ -405,7 +404,7 @@ form textarea {
     align-items: center;
     justify-content: center;
    padding: 10px 20px;
-    width: 60%;
+    width: 58%;
 
 }
 #nav-bar h2 {
@@ -431,11 +430,14 @@ footer {
 /*-----------------------------------PHONE----------------------------------*/
 @media screen and (max-width: 425px) {
     .flex-box {
-        width: 110vw
+        width: 90vw;
+        margin-left: 0;
+        margin-right: 0;
     }
-   /* #background-img{
-        width: 120vw;
-    }*/
+    #background-img{
+        width: 110vw;
+
+    }
     #name-role picture{
        margin-left: 5px;
     }
@@ -458,10 +460,10 @@ footer {
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        width: 45%;
+        width: 43%;
       border: none;
       background-color: transparent;
-      margin-left: 40px;
+      margin-left: 20px;
       margin-bottom: 20px;
       padding: 0;
      
@@ -469,11 +471,14 @@ footer {
     #nav-bar h2 {
         font-size: 18px;
         padding-left: 0;
-        margin-left: -30px;
+        margin-left: -25px;
          border-bottom: 1px solid white;
     }
     #nav-bar li {
        font-size: 11px;
+       margin-left: 0;
+       padding-left: 10px;
+    
     }
     footer {
         margin-top:30px;
