@@ -356,7 +356,7 @@ footer a:hover {
     }
 
 .flex-box {
-    margin: 10px auto;
+    margin: 15px auto;
     display: block;
     width: 100vw;
     padding: 0;
@@ -433,6 +433,9 @@ footer {
     .flex-box {
         width: 110vw
     }
+   /* #background-img{
+        width: 120vw;
+    }*/
     #name-role picture{
        margin-left: 5px;
     }
@@ -452,14 +455,13 @@ footer {
         font-size: 0.8em;
     }
     #nav-bar {
-        display:flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
         width: 45%;
       border: none;
       background-color: transparent;
-      margin-left: 20px;
+      margin-left: 40px;
       margin-bottom: 20px;
       padding: 0;
      
